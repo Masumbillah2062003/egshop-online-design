@@ -401,9 +401,14 @@ header{
     font-weight: bolder;
     font-family: sans-serif;
 }
-
+.all-offer-product-img{
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+}
 .all-offer-product-img-size{
-    width: 140px
+    width: 85px;
+    height: 85px;
 }
 
 .all-offer-product-amount-plate{

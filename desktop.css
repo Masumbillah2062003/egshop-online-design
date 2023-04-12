@@ -251,6 +251,11 @@ header{
 
 /*---------------------Middle part --2 design start here------------------------ */
 
+
+.product-categories{
+    background-color: #ffffff;
+    height: 280px;
+}
 .product-categories-h2{
     color: #f4f4f4;
     width: 77.5%;
@@ -316,3 +321,18 @@ header{
     display: table;
 }
 /*---------------------Middle part --2 design end here------------------------ */
+
+
+/*---------------------Middle part --3 design start here------------------------ */
+
+.middle-part-3{
+    display: none;
+}
+
+.middle-part-3::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*---------------------Middle part --3 design end here------------------------ */

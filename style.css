@@ -64,6 +64,7 @@ header{
     left: -200%;
     transition: all 0.4s linear;
     box-shadow: 250px 0px 50px 100px rgb(128, 128, 128, 0.5) ;
+    z-index: 15;
 }
 .top-categories .product-h3{
     background-color: #2ab858;
@@ -354,17 +355,21 @@ header{
 
 .middle-part-3{
     width: 100%;
+    background-color: #d1c0a3c7;
+    margin-top: 25px;
+    position: relative;
 }
 .all-offer-product{
     width: 100%;
-    background-color: #d1c0a3c7;
-    margin-top: 25px;
+    box-shadow: 0px 0px 5px 0px;
+    padding: 20px 0;
 }
 .all-offer-product-header{
     width: 97%;
     margin: 0 auto;
 }
 .all-offer-product-h2{
+    border-radius: 5px;
     background-color: #0fa930;
     color: white;
     padding: 10px;
@@ -422,3 +427,89 @@ header{
     font-size: 11px;
 }
 /*---------------------Middle part --3 design end here------------------------ */
+
+/*---------------------Middle part --4 design start here------------------------ */
+
+.middle-part-4{
+    width: 100%;
+    margin-top: 15px;
+    
+}
+.new-product-manu{
+    width: 97%;
+    background-color: white;
+    margin: 0 auto;
+    z-index: -2;
+    position: relative;
+}
+.new-product-h3-plate{
+     width: 100%;
+    margin: 0 auto;
+    border: 2px solid #c5c2c2e3;
+    box-shadow: 0px 0px 5px 1px #c7c9c7;
+    border-radius: 3px;
+}
+.new-product-h3{
+    color: #0fa930;
+    text-align: center;
+    padding: 10px 0;
+
+}
+.new-product-h3-hr{
+    width: 25%;
+    border: 2px solid red;
+    border-bottom: none;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.new-product-manubar{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.new-product-list{
+    width: 150px;
+    border: 2px solid #0fa930;
+    margin: 2px;
+}
+.new-product-a{
+    text-decoration: none;
+    color: black;
+}
+.new-product-img-size{
+    width: 146px;
+}
+
+.new-product-name-plate{
+    background-color: #faf7f7;
+    border-top: 1px solid #f5f1f1;
+    padding: 5px;
+    height: 100px;
+}
+.new-product-name{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+}
+.new-product-amount-plate{
+    color: red;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.new-product-amount-del{
+    font-size: 13px;
+    font-weight: 500;
+}
+.new-product-order{
+    text-decoration: none;
+}
+.new-product-order-h3{
+    color: #ffffff;
+    background-color: #17aa37d2;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 1px;
+}
+/*---------------------Middle part --4 design end here------------------------ */

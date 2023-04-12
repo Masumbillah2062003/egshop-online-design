@@ -336,3 +336,46 @@ header{
 }
 
 /*---------------------Middle part --3 design end here------------------------ */
+
+/*---------------------Middle part --4 design start here------------------------ */
+
+.new-product-manu{
+    width: 78%;
+    background-color: white;
+    margin: 0 166px;
+}
+.new-product-h3-plate{
+    background-color: #1faa3dd2;
+    border: none;
+    width: 99%;
+}
+.new-product-h3{
+    color: white;
+    font-size: 22px;
+}
+.new-product-h3-hr{
+    width: 10%;
+    border: none;
+    border: 1px solid red;
+    border-bottom: none;
+}
+
+
+.new-product-list{
+    width: 209px;
+    margin-left: 19px;
+    margin-top: 19px;
+}
+
+.new-product-img-size{
+    width: 195px;
+    margin: 5px;
+}
+
+.middle-part-4::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*---------------------Middle part --4 design end here------------------------ */

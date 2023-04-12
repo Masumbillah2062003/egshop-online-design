@@ -218,6 +218,7 @@ header{
     letter-spacing: 2px;
     transition: all linear .4s;
     box-shadow: -250px 0px 50px 100px rgb(128, 128, 128, 0.5) ;
+    z-index: 15;
 }
 #phone-buy-icon:hover > .your-cart{
     display: block;
@@ -469,9 +470,9 @@ header{
     margin-top: 10px;
 }
 .new-product-list{
-    width: 150px;
+    width: 170px;
     border: 2px solid #0fa930;
-    margin: 2px;
+    margin: 3px;
 }
 .new-product-a{
     text-decoration: none;

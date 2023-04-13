@@ -145,13 +145,16 @@ header{
     height: 350px;
     margin: 0 auto;
     margin-top: 0px;
-    box-shadow: 0px 0px 5px 1px #ddd6d6;
+    box-shadow: 0px 0px 5px 2px #ddd6d6 inset;
     background-color: rgba(157, 146, 146, 0.1);
 }
 .categories-manu{
     display: block;
     position: relative;
     
+}
+.product-categories-h2{
+    box-shadow: none;
 }
 .top-manubar{
     position: absolute;
@@ -349,9 +352,13 @@ header{
     border: none;
     width: 99%;
 }
+.new-product-h3-plate{
+    box-shadow: none;
+}
 .new-product-h3{
     color: white;
     font-size: 22px;
+
 }
 .new-product-h3-hr{
     width: 10%;
@@ -365,13 +372,12 @@ header{
     width: 209px;
     margin-left: 19px;
     margin-top: 19px;
+    background-color: white;
 }
-
 .new-product-img-size{
     width: 195px;
-    margin: 5px;
+    height: 200px;
 }
-
 .middle-part-4::after{
     content: "";
     clear: both;
